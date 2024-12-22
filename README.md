@@ -43,7 +43,7 @@ Follow these steps to set up the project:
 
 5. **Download the ChromeDriver:**
 
-    This is the most important step, so follow these steps:
+    The ChromeDriver will allow us to use the browser to scrape. To install it, follow these steps:
     
     1. Access the [ChromeDriver download page](https://googlechromelabs.github.io/chrome-for-testing/).
 
