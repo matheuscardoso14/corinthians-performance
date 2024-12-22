@@ -11,7 +11,7 @@ website = "https://www.adamchoi.co.uk/overs/detailed"
 
 # Initalizing the driver
 options = Options()
-service = Service(r"C:\Users\figue\Documents\ChromeDriver\chromedriver.exe")
+service = Service("<Path where your ChromeDriver is (include the executable file)>")
 driver = webdriver.Chrome(service=service, options=options)
 
 # Getting the website and maximizing the navigator"s window
@@ -81,4 +81,4 @@ df.sort_values("Date", ascending=True, inplace=True)
 print(df)
 
 # Saving the DataFrame into a .csv file
-df.to_csv("C:/Users/figue/Documents/VS Code Projects/Corinthians performance/corinthians_stats_brasileirao_2024.csv", sep=",", index=False, encoding="1252")
+df.to_csv("Path where you'll save your .csv file (include the file)", sep=",", index=False, encoding="1252")
