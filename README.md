@@ -96,4 +96,4 @@ Here's a step-by-step on how to use the project:
     
     You will have successfully generated two plots:
 
-    ![Plots](.gitignore/plot.png)
+    ![Plots](./plot.png)
