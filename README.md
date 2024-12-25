@@ -30,7 +30,7 @@ Follow these steps to set up the project:
 1. **Clone the repository:**
 
     ``` bash
-    git clone <"link">
+    git clone https://github.com/matheuscardoso14/corinthians-performance.git
     cd corinthians-performance
     ```
 2. **Install Jupyter Notebook (if you don't have it):**
