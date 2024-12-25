@@ -15,6 +15,15 @@ This is a project that tells a little about how Sport Club Corinthians Paulista 
     - **A pie chart**, comparing the number of wins, defeats and draws.
     - **A stacked vertical bar chat**, comparing the number of wins, defeats and draws by month, from April to December.
 
+## Resources used for this project
+
+- Python
+- Jupyter Notebook
+- Selenium
+- Pandas
+- Matplotlib
+- Seaborn
+
 ## Installation
 Follow these steps to set up the project:
 
