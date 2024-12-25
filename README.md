@@ -1,7 +1,7 @@
 # **Corinthians' performance in the 2024 Brazilian Soccer Championship**
 
 ## Overview
-This is a project that tells a little about how Sport Club Corinthians Paulista has performed in their national soccer championship: Brasileirão, how we're accustomed to call it in Brazil. This project has three files:
+This is a project that tells a little about how Sport Club Corinthians Paulista has performed in their national soccer championship: Brasileirão (how we're accustomed to call it in Brazil). This project has three files:
 
 - **A Python script** that scrapes a website about soccer statistics. This script will get data about all the matches that Corinthians has played and save them as a .csv file.
 - **A .csv file** (you'll need to generate it first) with all the data about the matches. This file has five columns:
