@@ -103,6 +103,6 @@ Here's a step-by-step on how to use the project:
 
 5. **Execute all the cells**
     
-    You will have successfully generated two plots:
+    You should have generated these two plots:
 
     ![Plots](./plot.png)
