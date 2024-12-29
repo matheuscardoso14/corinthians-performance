@@ -81,4 +81,4 @@ df.sort_values("Date", ascending=True, inplace=True)
 print(df)
 
 # Saving the DataFrame into a .csv file
-df.to_csv("Path where you'll save your .csv file (include the file)", sep=",", index=False, encoding="1252")
+df.to_csv("<Path where you'll save your .csv file (include the file)>", sep=",", index=False, encoding="1252")
