@@ -22,8 +22,12 @@ driver.maximize_window()
 time.sleep(3)
 
 # Selecting the league of Brazil (Brasileirão Série A)
-dropdown = Select(driver.find_element(By.ID, "country"))
-dropdown.select_by_visible_text("Brazil")
+country_dropdown = Select(driver.find_element(By.ID, "country"))
+country_dropdown.select_by_visible_text("Brazil")
+
+# Selecting the season of 2024
+season_dropdown = Select(driver.find_element(By.ID, "season"))
+season_dropdown.select_by_visible_text("2024")
 
 # Waiting 3 seconds before the next step
 time.sleep(3)
@@ -48,9 +52,9 @@ away = []
 # Storing the data about each match
 for match in team_matches:
     date.append(match.find_element(By.XPATH, "./td[1]").text)
-    home.append(match.find_element(By.XPATH, "./td[2]").text)
-    score.append(match.find_element(By.XPATH, "./td[3]").text)
-    away.append(match.find_element(By.XPATH, "./td[4]").text)
+    home.append(match.find_element(By.XPATH, "./td[3]").text)
+    score.append(match.find_element(By.XPATH, "./td[4]").text)
+    away.append(match.find_element(By.XPATH, "./td[5]").text)
 
 # Stopping the driver
 driver.quit()
